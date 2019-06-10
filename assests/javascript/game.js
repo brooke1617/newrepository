@@ -23,21 +23,6 @@ document.onkeyup = function(event) {
     console.log(loses)
     }
     
-    // // Reworked our code from last step to use "else if" instead of lots of if statements.
-
-    // // This logic determines the outcome of the game (win/loss/tie), and increments the appropriate number
-    //if ((userGuess === "r") || (userGuess === "p") || (userGuess === "s")) {
-
-    //   if ((userGuess === "r" && computerGuess === "s") ||
-    //     (userGuess === "s" && computerGuess === "p") || 
-    //     (userGuess === "p" && computerGuess === "r")) {
-    //     wins++;
-    //   } else if (userGuess === computerGuess) {
-    //     ties++;
-    //   } else {
-    //     losses++;
-    //   }
-
     //   // Hide the directions
        //directionsText.textContent = "choices are a, e, i, o, u";
 
